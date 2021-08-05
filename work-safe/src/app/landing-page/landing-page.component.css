@@ -7,6 +7,11 @@
     right: 0;
 }
 
+.circle-mobile{
+    width: 98%;
+    height: 98%;
+}
+
 .team{
     width: 54%;
     height: 84%;
