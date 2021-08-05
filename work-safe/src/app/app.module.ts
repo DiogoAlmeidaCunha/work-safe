@@ -9,6 +9,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './Components/footer/footer.component';
 import { LoginPageComponent } from './login-page/login-page/login-page.component';
 
+import AOS from 'aos';
+AOS.init();
+
+
 @NgModule({
   declarations: [
     AppComponent,
