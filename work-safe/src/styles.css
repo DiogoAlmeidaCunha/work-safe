@@ -49,11 +49,11 @@ button{
 
 .btn3{
     background-color:#ffffff ;
-    border-color: #273460;
+    border-color: #05cf9f;
     padding: 2%;
     padding-left: 5%;
     padding-right: 5%;
-    color: #273460;
+    color: #05cf9f;
 }
 
 button, a{
@@ -66,7 +66,8 @@ button, a{
 }
 
 button:hover{
-    background-color: #05cf9f;
-    color: #273460;
-    border-color: #05cf9f;
+    background-color: #273460;
+    color: #ffffff;
+    border-color: #273460;
 }
+

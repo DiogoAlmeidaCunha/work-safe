@@ -1,0 +1,110 @@
+
+body{
+    background-color: red;
+}
+
+.bg {
+    /* The image used */
+    background-color: rgb(245, 245, 245);
+    /*background-color: #4156e3;*/
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 455px;
+
+}
+
+.social-media{
+    margin: 20px;
+    opacity:0.88;
+     width: 70px;
+     height: 42px;
+     transition: 0.5s;
+     cursor: pointer;
+}
+
+.social-media:hover{
+    width: 77px;
+     height: 50px;
+}
+
+input{
+    border-top-style: none ;
+    border-left-style: none ;
+    border-right-style: none ;
+    border-bottom: 2px solid #05cf9f;
+    cursor: pointer;
+
+}
+
+input:active {
+    border-color: red;
+    text-decoration: none;
+    outline-width: 0;
+}
+
+.lenght{
+    width: 74%;
+}
+
+.box-blue{
+    margin-top:4%;
+    margin-bottom: 4%;
+    background-image: url("../../../assets/login-2.jpg");
+    opacity: 0.95;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 455px;
+}
+
+.login-logo{
+    margin: 30px;
+    width: 60px;
+    height: 70px;
+}
+
+.box-dark{    margin-top:4%;
+    margin-bottom: 4%;
+
+    background-color:#ffffff;
+    opacity: 0.96;
+}
+
+.open-trans{
+    overflow: hidden;
+    transition-duration: 1.90s;
+    transition-property: transform;
+    animation: createBox 2s;
+}
+
+
+.pt-8{
+    padding-top:8%;
+}
+
+.mb-l{
+    margin-bottom: 6%;
+}
+
+
+
+.box-white{
+    background-color: white; opacity: 0.7;
+}
+
+.box-black{
+    background-color: rgb(32, 32, 32); opacity: 0.88;
+    box-shadow: 5px 10px #ececed;
+    animation: flip;
+}
+
+.box-black:hover{
+    background-color: #29aae3;
+}
+
+
+@media (max-width: 760px){
+    
+}
