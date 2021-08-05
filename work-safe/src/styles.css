@@ -1,0 +1,72 @@
+/* You can add global styles to this file, and also import other style files */
+
+h1,h2,h3,h4,h5 {
+    font-family: Gotham Book,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    color: #273460;
+}
+
+h1{
+    font-size: calc(100% + 2vw + 2vh);
+}
+
+p {
+    font-family: Gotham Book,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    color: #05cf9f;
+
+}
+
+div {
+    font-family: Gotham Book,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    color: #05cf9f;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+button{
+    font-family: Gotham Book,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    padding: 4.8%;
+    background-color: #273460;
+    color: white;
+    border-color: #273460;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 20px;
+    font-family: monospace;
+    transition: 1.4s;
+}
+
+.btn2{
+    background-color:#05cf9f ;
+    border-color: #05cf9f;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+}
+
+.btn3{
+    background-color:#ffffff ;
+    border-color: #273460;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #273460;
+}
+
+button, a{
+    font-family: Gotham Book,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color:#05cf9f;
+}
+
+button:hover{
+    background-color: #05cf9f;
+    color: #273460;
+    border-color: #05cf9f;
+}

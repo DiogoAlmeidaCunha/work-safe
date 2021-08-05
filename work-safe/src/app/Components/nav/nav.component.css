@@ -1,0 +1,38 @@
+
+li{
+    margin: 10px;
+}
+
+.nav-logo{
+    width: 44px;
+    height: 44px;
+    margin-right: none;
+    margin-top: 5%;
+    padding-top: 3%;
+    opacity: 0.84;
+}
+
+.navbar{
+    margin-left: 18%;
+    margin-right:  18%;
+}
+
+#navbarNavDropdown{
+    margin-left: 48.5%;
+}
+
+@media (min-width: 1320px){
+    #navbarNav{
+        margin-left: 58%;
+    }
+
+    
+}
+
+@media (max-width: 470px){
+    .navbar{
+        margin-left: 8%;
+        margin-right:  8%;
+    }
+}
+    
