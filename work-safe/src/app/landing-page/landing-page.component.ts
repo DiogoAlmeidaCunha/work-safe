@@ -12,4 +12,24 @@ export class LandingPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  openInstagram(name){
+
+    if(name=="af"){
+      window.open("https://www.af-reabilitacao.com/");
+
+    } else if(name=="amm"){
+      window.open("http://www.construcoesamm.com/");
+
+    }
+
+    else if(name=="witech"){
+      window.open("https://witech-web.web.app/");
+    }
+
+    else if(name=="deccer"){
+      window.open("https://deccer.com/");
+    }
+      
+  }
+
 }

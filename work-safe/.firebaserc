@@ -1,0 +1,15 @@
+{
+  "targets": {
+    "worksafeporto": {
+      "hosting": {
+        "work-safe": [
+          "worksafeporto"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "worksafeporto": "worksafeporto",
+    "default": "worksafeporto"
+  }
+}

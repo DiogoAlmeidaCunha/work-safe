@@ -12,4 +12,8 @@ export class LoginPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  instagram(){
+    window.open("https://www.instagram.com/witech_");
+  }
+  
 }

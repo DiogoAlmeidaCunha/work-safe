@@ -1,4 +1,8 @@
 
+.m-xl{
+    margin: 2%;
+}
+
 .circle{
     position: absolute;
     width: 54%;
@@ -8,8 +12,8 @@
 }
 
 .circle-mobile{
-    width: 98%;
-    height: 98%;
+    width: 99%;
+    height: 99%;
 }
 
 .team{
@@ -18,4 +22,59 @@
     position: absolute;
     z-index: 1;
     right: 0;
+}
+
+.logo-sm{
+    width: 80px;
+    height: 70px;
+    opacity: 0.20;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.logo-sm:hover{
+    transition: 0.5s;
+    transform: scale(1.24);
+
+}
+
+.bg2{
+    background-color: #05cfa019;
+}
+
+.bg3{
+    background-color: #273460;
+}
+
+.img-service{
+    width: 180px;
+    height: 150px;
+}
+
+.box-black{
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.box-black:hover{
+    background-color: #273460;
+}
+.box-black:hover h2,.box-black:hover p{
+    color: white;
+}
+
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 580px) { 
+    
+.logo-sm{
+    width: 50px;
+    height: 40px;
+    opacity: 0.20;
+    transition: 0.5s;
+    cursor: pointer;
+}
 }

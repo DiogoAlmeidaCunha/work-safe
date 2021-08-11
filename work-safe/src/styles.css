@@ -11,7 +11,7 @@ h1{
 
 p {
     font-family: Gotham Book,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
-    color: #05cf9f;
+    color: #1b201f;
 
 }
 
@@ -65,9 +65,12 @@ button, a{
     color:#05cf9f;
 }
 
+
+
 button:hover{
     background-color: #273460;
     color: #ffffff;
     border-color: #273460;
 }
+
 
