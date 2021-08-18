@@ -28,6 +28,8 @@ div {
 
 }
 
+
+
 a{
     text-decoration: none;
 }
@@ -44,6 +46,7 @@ button{
     font-family: monospace;
     transition: 1.4s;
 }
+
 
 .btn2{
     background-color:#05cf9f ;
@@ -72,7 +75,10 @@ button, a{
     color:#05cf9f;
 }
 
+button, a:hover{
 
+    color:#34413e;
+}
 
 button:hover{
     background-color: #273460;

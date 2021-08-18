@@ -1,0 +1,44 @@
+
+h1{
+    color: white;
+    letter-spacing: 0.05cm;
+}
+
+
+.bg-1{
+    background-color: #05cf9f;
+}
+
+.pr-xl{
+    padding: 6%;
+    padding-right: 10%;
+}
+
+.social-media{
+    margin: 20px;
+    opacity:0.88;
+     width: 70px;
+     height: 42px;
+     transition: 0.5s;
+     cursor: pointer;
+}
+
+.social-media:hover{
+    width: 77px;
+     height: 50px;
+}
+
+.h5-follow{
+    letter-spacing: 0.05cm;
+}
+
+@media (max-width: 760px){
+    .social-media{
+        margin: 10px;
+        opacity:0.88;
+         width: 49px;
+         height: 25px;
+         transition: 0.5s;
+         cursor: pointer;
+    }
+}

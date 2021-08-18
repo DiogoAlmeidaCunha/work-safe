@@ -10,6 +10,7 @@ import { FooterComponent } from './Components/footer/footer.component';
 import { LoginPageComponent } from './login-page/login-page/login-page.component';
 
 import AOS from 'aos';
+import { ContactPageComponent } from './contact-page/contact-page.component';
 AOS.init();
 
 
@@ -19,7 +20,8 @@ AOS.init();
     LandingPageComponent,
     NavComponent,
     FooterComponent,
-    LoginPageComponent
+    LoginPageComponent,
+    ContactPageComponent
   ],
   imports: [
     BrowserModule,

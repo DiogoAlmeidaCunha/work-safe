@@ -3,6 +3,8 @@
     margin: 2%; 
 }
 
+
+
 .circle{
     position: absolute;
     width: 54%;
@@ -11,13 +13,6 @@
     right: 0;
 }
 
-.team{
-    animation: myteam 3s ease-in-out 1s infinite;
-}
-
-.team:hover{
-    transform: rotate(-12deg);
-}
 
 .block-1{
     position: relative; 
@@ -31,6 +26,14 @@
     animation:  animate 10s 1s infinite;
     
 
+}
+
+#btn_service,a{
+    color: white;
+}
+
+#btn_service,a:hover{
+    color: #05cf9f;
 }
 
 @keyframes animate {
