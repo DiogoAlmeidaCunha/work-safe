@@ -1,9 +1,8 @@
 
+
 .m-xl{ 
     margin: 2%; 
 }
-
-
 
 .circle{
     position: absolute;
@@ -23,10 +22,10 @@
     border-radius: 30% 90% 53% 37% / 21% 94% 56%;
     z-index: -1;
     transition: 1s;
-    animation:  animate 10s 1s infinite;
+    /*animation:  animate 10s 1s infinite;*/
     
-
 }
+
 
 #btn_service,a{
     color: white;
@@ -72,8 +71,9 @@
 }
 
 .team{
-    width: 54%;
+    width: 50%;
     height: 84%;
+    margin-right: 4%;
     position: absolute;
     z-index: 1;
     right: 0;

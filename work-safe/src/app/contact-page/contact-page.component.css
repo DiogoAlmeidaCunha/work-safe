@@ -4,6 +4,16 @@ h1{
     letter-spacing: 0.05cm;
 }
 
+.bg1{
+    background-image: url("../../assets/bg-conta2.png");
+    width: 100%;
+    height: 100%;
+    margin-top: 0%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .bg-1{
     background-color: #05cf9f;
